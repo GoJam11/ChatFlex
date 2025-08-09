@@ -6,9 +6,7 @@
 
 **A Local-first LLM Interface — desktop-optimized and built for power users running Ollama and beyond.**
 
-[🌐 Visit Website](https://www.chatflex.app)
-
-English | [简体中文](./README.zh-CN.md)
+[🌐 Visit Website](https://www.chatflex.app) | English | [简体中文](./README.zh-CN.md)
 
 
 ## ⚙️ Features

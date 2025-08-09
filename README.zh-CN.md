@@ -2,7 +2,7 @@
 
 ![chatflex](./assets/product.png)
 
-# 🧠 ChatFlex
+# ChatFlex
 
 **一款本地优先的大语言模型桌面界面 —— 为使用 Ollama 等工具的高阶用户而设计。**
 

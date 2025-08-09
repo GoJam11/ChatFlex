@@ -2,7 +2,7 @@
 
 ![chatflex](./assets/product.png)
 
-# 🧠 ChatFlex
+# ChatFlex
 
 **A Local-first LLM Interface — desktop-optimized and built for power users running Ollama and beyond.**
 

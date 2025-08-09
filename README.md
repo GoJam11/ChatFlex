@@ -2,9 +2,9 @@
 
 ![chatflex](./assets/product.png)
 
-# ChatFlex
+# <p align="center">ChatFlex</p>
 
-**A Local-first LLM Interface — desktop-optimized and built for power users running Ollama and beyond.**
+**<p align="center">A Local-first LLM Interface — desktop-optimized and built for power users running Ollama and beyond.</p>**
 
 <p align="center">[🌐 Visit Website](https://www.chatflex.app) | English | [简体中文](./README.zh-CN.md)</p>
 

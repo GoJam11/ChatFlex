@@ -1,5 +1,4 @@
 
----
 
 ![chatflex](./assets/product.png)
 
@@ -9,7 +8,6 @@
 
 [🌐 Visit Website](https://www.chatflex.app)
 
----
 
 ## ⚙️ Features
 

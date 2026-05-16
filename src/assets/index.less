@@ -1,0 +1,40 @@
+@import "hljs.less";
+@import "token.less";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: "Söhne", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    user-select: none;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+}

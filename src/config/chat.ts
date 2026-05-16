@@ -1,0 +1,1 @@
+export const DEFAULT_HISTORY_MESSAGE_LIMIT = 10;

@@ -1,0 +1,24 @@
+// 在 <style> 块的开始处定义 mixin
+.scrollbar-style(@width: 8px, @thumb-color: #8d8d93, @thumb-radius: 5px) {
+    &::-webkit-scrollbar {
+        background-color: transparent;
+        width: @width;
+        height: @width;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: @thumb-color;
+        border-radius: @thumb-radius;
+    }
+}
+
+.ellipsis-line(@lines: 1) {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: @lines;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+}

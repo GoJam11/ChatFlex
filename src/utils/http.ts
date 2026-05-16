@@ -5,12 +5,15 @@ export async function corsSafeFetch(
     input: URL | Request | string,
     init?: RequestInit
 ): Promise<Response> {
-    try {
-        if (typeof window !== "undefined" && isTauri()) {
-            return tauriFetch(input, init);
+    if (typeof window !== "undefined" && isTauri()) {
+        try {
+            return await tauriFetch(input, init);
+        } catch (error) {
+            console.warn(
+                "[corsSafeFetch] Tauri HTTP fetch failed, falling back to browser fetch:",
+                error,
+            );
         }
-    } catch {
-        // Fall back to the browser implementation outside the Tauri runtime.
     }
 
     return globalThis.fetch(input, init);
